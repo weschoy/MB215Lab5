@@ -28,4 +28,4 @@ for i in range (0,5):
 for i in range (0,5):
     user_car.brake()
     speed=user_car.get_speed()
-    print(speed,+" km/hr")
+    print(speed," km/hr")

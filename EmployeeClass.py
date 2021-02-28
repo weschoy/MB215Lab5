@@ -21,10 +21,4 @@ class Employee:
     def __str__(self):
         return "Employee: " +self.__Name + "\n" + str(self.__ID) + "\n" + self.__Department + "\n" + self.__Job + "\n\n"
 
-User1=Employee("Susan Meyers",47899,"Accounting","Vice President")
-User2=Employee("Mark Jones",39119,"IT","Programmer")
-User3=Employee("Joy Rogers",81774,"Manufacturing","Engineer")
 
-print(User1)
-print(User2)
-print(User3)
